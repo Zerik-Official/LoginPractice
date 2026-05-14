@@ -1,10 +1,11 @@
 import './style.css'
-import { loginView } from './views/loginSection.js'
+import loginView from './views/loginSection.js'
 import { loginController } from './controllers/loginController.js';
+import homeView from './views/homeSection.js';
 
 const appContainer = document.getElementById("app");
 
-let userLogin = false;
+let userLogin = localStorage.getItem("auth");
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -17,5 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
             loginController(formLogin);
 
         })
-    };
+    } else {
+
+        appContainer.innerHTML = homeView(appContainer)
+
+    }
 });
