@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Mouse Logitech G203",
+      "description": "Mouse gamer RGB de alta precisión.",
+      "category": "Accesorios",
+      "stock": 15,
+      "price": 120
+    },
+    {
+      "id": "3",
+      "name": "Teclado Mecánico Redragon",
+      "description": "Teclado mecánico con switches blue.",
+      "category": "Accesorios",
+      "stock": 3,
+      "price": 250
+    },
+    {
+      "id": "4",
+      "name": "Monitor Samsung 24\"",
+      "description": "Monitor Full HD de 144Hz.",
+      "category": "Monitores",
+      "stock": 1,
+      "price": 980
+    },
+    {
+      "id": "5",
+      "name": "Auriculares HyperX Cloud II",
+      "description": "Sonido surround 7.1 y micrófono con cancelación de ruido.",
+      "category": "Audio",
+      "stock": 10,
+      "price": 450
+    },
+    {
+      "id": "6",
+      "name": "Silla Gamer Noblechairs",
+      "description": "Ergonómica con acabado en cuero sintético y soporte lumbar.",
+      "category": "Muebles",
+      "stock": 5,
+      "price": 1200
+    },
+    {
+      "id": "7",
+      "name": "Tarjeta de Video RTX 4060 Ti",
+      "description": "Arquitectura Ada Lovelace con 8GB GDDR6.",
+      "category": "Componentes",
+      "stock": 4,
+      "price": 2100
+    },
+    {
+      "id": "8",
+      "name": "Memoria RAM Corsair Vengeance 16GB",
+      "description": "Kit de 2x8GB DDR4 3200MHz con iluminación RGB.",
+      "category": "Componentes",
+      "stock": 20,
+      "price": 380
+    },
+    {
+      "id": "9",
+      "name": "Micrófono Blue Yeti",
+      "description": "Micrófono USB profesional para streaming y podcast.",
+      "category": "Audio",
+      "stock": 8,
+      "price": 600
+    },
+    {
+      "id": "10",
+      "name": "Mousepad Razer Goliathus XL",
+      "description": "Superficie de microtextura optimizada para todos los sensores.",
+      "category": "Accesorios",
+      "stock": 25,
+      "price": 150
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
